@@ -11,9 +11,11 @@
 
 .statList {
   display: flex;
+  justify-content: space-between;
   list-style: none;
   padding: 0;
   gap: 10px;
+  width: 240px;
 }
 
 .item {
@@ -21,4 +23,5 @@
   flex-direction: column;
   align-items: center;
   gap: 15px;
+  color: white;
 }
