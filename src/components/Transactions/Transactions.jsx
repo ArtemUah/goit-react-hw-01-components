@@ -15,7 +15,8 @@ export const Transactions = ({ transactions }) => {
 
       <tbody>
         {transactions.map(transaction => {
-          return (
+            return (
+              
             <TransactionList transaction={transaction} key={transaction.id} />
           );
         })}
