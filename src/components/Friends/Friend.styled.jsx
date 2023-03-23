@@ -9,16 +9,18 @@ export const FriendsContainer = styled.ul`
 `;
 
 export const FriendsItem = styled.li`
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  width: 240px;
-  justify-content: space-between;
+display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 100%;
 `;
 
 export const FriendStatus = styled.span`
-  width: 50px;
-  height: 50px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   background-color: ${({ status }) => {
     return status.isOnline === true ? `green` : `orange`;

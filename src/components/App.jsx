@@ -6,12 +6,13 @@ import { Friends } from './Friends/Friends.jsx';
 import friends from './Friends/friends';
 import { Transactions } from './Transactions/Transactions.jsx';
 import transactions from './Transactions/transactions';
+import css from './App.module.css'
 
 export const App = () => {
   return (
-    <div>
+    <div className={css.app}>
       <Profile user={user} />
-      <Statistics data={data} />
+      <Statistics title={'Upload stats'} data={data} />
       <Friends friends={friends} />
       <Transactions transactions={transactions} />
     </div>
