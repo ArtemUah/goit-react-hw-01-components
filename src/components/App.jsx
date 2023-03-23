@@ -6,7 +6,7 @@ import { Friends } from './Friends/Friends.jsx';
 import friends from './Friends/friends';
 import { Transactions } from './Transactions/Transactions.jsx';
 import transactions from './Transactions/transactions';
-import css from './App.module.css'
+import css from './App.module.css';
 
 export const App = () => {
   return (

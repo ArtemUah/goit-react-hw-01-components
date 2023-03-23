@@ -9,13 +9,13 @@ export const FriendsContainer = styled.ul`
 `;
 
 export const FriendsItem = styled.li`
-display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 15px;
-    border-radius: 10px;
-    background-color: aliceblue;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  width: 100%;
 `;
 
 export const FriendStatus = styled.span`
